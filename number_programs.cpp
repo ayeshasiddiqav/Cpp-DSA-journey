@@ -39,6 +39,7 @@ int main() {
 
         case 2: {
             // Fibonacci Series
+            // The Fibonacci series is a sequence where each number is the sum of the two numbers before it.
             int n;
             cout << "How many terms: ";
             cin >> n;
@@ -93,6 +94,7 @@ int main() {
 
         case 5: {
             // Armstrong Number
+            // sum of digits to the power of number of digits is equal to number 
             int n, original, sum = 0, remainder, digits = 0, temp;
             cout << "Enter a number: ";
             cin >> n;
